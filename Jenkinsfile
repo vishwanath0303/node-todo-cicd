@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage("Build and Test"){
             steps{
-              hello()
+              hello.call1()
             }
         }
         stage("Clone Code"){
