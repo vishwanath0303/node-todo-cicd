@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage("Build and Test"){
             steps{
-              hello
+              call()
             }
         }
         stage("Clone Code"){
