@@ -1,3 +1,4 @@
+@Library("my-shared-library") _
 pipeline {
     ageny any
     // agent { label "dev-server" }
