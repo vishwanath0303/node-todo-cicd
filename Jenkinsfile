@@ -1,6 +1,5 @@
 @Library('my-shared-library') _
 pipeline {
-    agent { label "dev-server" }
     stages{
         stage("Build and Test"){
             steps{
