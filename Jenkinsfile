@@ -4,8 +4,10 @@ pipeline {
     stages{
         stage("Build and Test"){
             steps{
+                script{
               hello.call1()
             }
+        }
         }
         stage("Clone Code"){
             steps{
